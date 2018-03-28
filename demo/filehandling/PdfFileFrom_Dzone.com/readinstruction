@@ -1,0 +1,9 @@
+PDF creation is required in some of Java-based applications, as PDF is one of the most popular document types due to its read-only and platform-independent attributes. iText is an open source library that helps integrate the PDF functionalities (create/manipulate) in your application.
+
+iText has classes as Document objects, which are basically the main containers, and other classes are residing within them. Paragraph is a content type that can be written to the Document object. Other content types are Anchor, Chapter,  Phrase,  PdfpTable, Section, List, etc. These classes help create a PDF document.
+
+Let's look at the working example.
+
+Required JAR: itextpdf-5.1.0.jar
+
+DataObject.java:
